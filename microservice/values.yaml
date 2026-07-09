@@ -1,6 +1,6 @@
 # 최상위 경로의 values.yaml
 
-ingress-rule:
+ingressRule:
   namespace: "default"
   host: "cloud-learning.site"
 

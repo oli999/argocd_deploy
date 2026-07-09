@@ -3,7 +3,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: {{ .Release.Name }}-ingress-rule
-  namespace: {{ .Values.ingress-rule.namespace | default "default" }}
+  namespace: {{ .Values.ingressRule.namespace | default "default" }}
 spec:
   # 배포한 ingress-controller 와 연결고리가 되는 ingressClassName: nginx
   ingressClassName: nginx
