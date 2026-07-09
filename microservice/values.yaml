@@ -1,5 +1,9 @@
 # 최상위 경로의 values.yaml
 
+ingress-rule:
+  namespace: "default"
+  host: "cloud-learning.site"
+
 index-app:
   replicaCount: 2
   image:
