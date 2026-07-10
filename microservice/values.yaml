@@ -2,7 +2,7 @@
 
 ingressRule:
   namespace: "default"
-  host: "cloud-learning.site"
+  host: "cloud-study.site"
 
 index-app:
   replicaCount: 2
