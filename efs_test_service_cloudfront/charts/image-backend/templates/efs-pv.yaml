@@ -15,4 +15,4 @@ spec:
   # Container Storage Interface 설정 
   csi:
     driver: efs.csi.aws.com
-    volumeHandle: "fs-072c0c89bb1c5f51e"
+    volumeHandle: "fs-096f379b0859a314e"
