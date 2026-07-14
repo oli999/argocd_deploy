@@ -9,4 +9,4 @@ spec:
   storageClassName: efs-sc # storage class name 일치시키기 
   resources:
     requests:
-      storage: 5Gi          # PV에 적은 용량과 똑같이 맞춰줍니다.
+      storage: 5Gi     
