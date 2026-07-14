@@ -6,7 +6,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: efs-sc # storage class name 일치시키기 
+  storageClassName: efs-sc # efs 의 main.tf 에 정의한 storage class name 일치시키기 
   resources:
     requests:
-      storage: 5Gi          # PV에 적은 용량과 똑같이 맞춰줍니다.
+      storage: 5Gi   # 형식만 맞춰주는것이고 숫자는 의미 없음 (크기는 저장한 만큼 동적으로 늘어남)
